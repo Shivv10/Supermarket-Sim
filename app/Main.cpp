@@ -9,9 +9,9 @@ int main(int argc, char* argv[])
 		cout<<"where simulationType is either 1 (express lane) or 2 (one waiting line)."<<endl;
 		return 0;
 	}
-	// string filename = "smallTest.txt";  //for testing purposes only
-	string filename = argv[1];
-	// string version = "2";  //for testing purposes only
+
+	string filename = "input.txt";
+
 	string version = argv[2];
 	Simulation* sim;
 	
